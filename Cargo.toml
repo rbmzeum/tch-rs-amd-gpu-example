@@ -1,0 +1,7 @@
+[package]
+name = "mytch"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tch = { path = "./tch-rs", features = ["cuda-tests"] }

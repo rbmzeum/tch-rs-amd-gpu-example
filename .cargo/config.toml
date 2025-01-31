@@ -1,0 +1,7 @@
+[env]
+LIBTORCH_USE_SYSTEM = "1"
+LIBTORCH = "/usr"
+LIBTORCH_INCLUDE = "/usr/include/torch"
+LIBTORCH_LIB = "/usr/lib"
+LD_LIBRARY_PATH = "/usr/lib:/opt/rocm/lib"
+RUSTFLAGS = "-C link-arg=-Wl,--allow-multiple-definition -C link-arg=-Wl,--no-as-needed" 
